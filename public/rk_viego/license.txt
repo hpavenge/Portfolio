@@ -1,0 +1,11 @@
+Model Information:
+* title:	RK_Viego
+* source:	https://sketchfab.com/3d-models/rk-viego-0067c883c863486da521f3c22bb692c6
+* author:	RedRaptor16th (https://sketchfab.com/RedRaptor16th)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "RK_Viego" (https://sketchfab.com/3d-models/rk-viego-0067c883c863486da521f3c22bb692c6) by RedRaptor16th (https://sketchfab.com/RedRaptor16th) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

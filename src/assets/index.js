@@ -25,6 +25,9 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import truelime from "./company/truelime.png";
+import webicon from "./company/web.png";
+import rockstars from "./company/rockstars.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -56,6 +59,9 @@ export {
   shopify,
   starbucks,
   tesla,
+  truelime,
+  webicon,
+  rockstars,
   carrent,
   jobit,
   tripguide,
