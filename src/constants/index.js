@@ -143,7 +143,6 @@ import {
       points: [
         "Developing and maintaining web applications using .NET MVC, .NET Core, React and Kentico as a CMS.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Several projects that i helped building: https://www.radboudumc.nl/en/patient-care https://www.deltion.nl/ https://www.windesheim.nl/ https://www.hulpmiddelenwijzer.nl/ ",
         "Participating in code reviews and providing constructive feedback to other developers.",
         "Certificates: Kentico Xperience 13 Developer, SCRUM PRODUCT OWNER"
       ],
