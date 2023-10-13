@@ -1,5 +1,5 @@
 import React from "react";
-import {Tilt} from "react-tilt";
+import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -39,19 +39,20 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>Introductie</p>
+        <h2 className={styles.sectionHeadText}>Overzicht.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled web software developer with experience in .NET,
-        JavaScript and SQL, and expertise in frameworks like .NET MVC, .NET Core, Azure(AZ-204), React, Angular, SCRUM. 
-        I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        Ik ben een ervaren web software ontwikkelaar met kennis van .NET,
+        JavaScript en SQL, en expertise in frameworks zoals .NET MVC, .NET Core, Azure(AZ-204), React, Angular en SCRUM.
+        Ik leer snel en werk nauw samen met klanten om
+        efficiënte, schaalbare en gebruiksvriendelijke oplossingen te creëren die
+        reële problemen oplossen. Laten we samenwerken om uw ideeën tot leven te brengen!
+
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

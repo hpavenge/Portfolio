@@ -122,82 +122,83 @@ import {
   
   const experiences = [
     {
-      title: "Web Developer",
-      company_name: "Digibit,Sologic media, So-Zeker, Axi, Loyally, Axerrio",
+      title: "Webontwikkelaar",
+      company_name: "Digibit, Sologic media, So-Zeker, Axi, Loyally, Axerrio",
       icon: webicon,
       iconBg: "#383E56",
-      date: "February 2012 - September 2017",
+      date: "Februari 2012 - September 2017",
       points: [
-        "Sevaral sidejobs and internships (abroad) next to my study.",
-        "Developing and maintaining web applications using PHP,.NET, HTML, CSS & Javascript(Angular/React) and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing designs from photoshop or wordpress",
+        "Diverse bijbanen en stages (in het buitenland) naast mijn studie.",
+        "Ontwikkelen en onderhouden van webapplicaties met PHP, .NET, HTML, CSS & Javascript (Angular/React) en andere gerelateerde technologieën.",
+        "Samenwerken met multidisciplinaire teams, waaronder ontwerpers, productmanagers en andere ontwikkelaars, om hoogwaardige producten te creëren.",
+        "Implementeren van ontwerpen vanuit Photoshop of WordPress.",
       ],
     },
     {
-      title: "Full stack developer",
+      title: "Full stack ontwikkelaar",
       company_name: "TrueLime",
       icon: truelime,
       iconBg: "#E6DEDD",
-      date: "Jan 2018 - May 2022",
+      date: "Jan 2018 - Mei 2022",
       points: [
-        "Developing and maintaining web applications using .NET MVC, .NET Core, React and Kentico as a CMS.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-        "Certificates: Kentico Xperience 13 Developer, SCRUM PRODUCT OWNER"
+        "Ontwikkelen en onderhouden van webapplicaties met .NET MVC, .NET Core, React en Kentico als CMS.",
+        "Samenwerken met multidisciplinaire teams om hoogwaardige producten te creëren.",
+        "Deelnemen aan codereviews en constructieve feedback geven aan andere ontwikkelaars.",
+        "Certificaten: Kentico Xperience 13 Ontwikkelaar, SCRUM PRODUCT OWNER"
       ],
     },
     {
-      title: "Scrum master & Product owner",
+      title: "Scrum master & Producteigenaar",
       company_name: "TrueLime",
       icon: truelime,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - May 2022",
+      date: "Jan 2021 - Mei 2022",
       points: [
-        "Making plans for sprints, based on budgets and desired functionality of public tenders",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Ensuring the weekly scrum events are happening and collaborating with stakeholders to prioritise and refine the backlog.",
-        "Managing accounts and helping setup financial contracts for the future.",
+        "Plannen maken voor sprints op basis van budgetten en gewenste functionaliteit van openbare aanbestedingen.",
+        "Samenwerken met multidisciplinaire teams om hoogwaardige producten te creëren.",
+        "Zorgen dat de wekelijkse scrum events plaatsvinden en samenwerken met belanghebbenden om de backlog te prioriteren en verfijnen.",
+        "Beheren van accounts en helpen bij het opzetten van financiële contracten voor de toekomst.",
       ],
     },
     {
-      title: "Full stack Developer",
+      title: "Full stack Ontwikkelaar",
       company_name: "Team Rockstars IT",
       icon: rockstars,
       iconBg: "#E6DEDD",
-      date: "May 2022 - Present",
+      date: "Mei 2022 - Heden",
       points: [
-        "Developing and maintaining web applications using .NET Core, Angular, React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Customers i have worked for: Team Rockstars IT internal tooling, Conclusion Confidential",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-        "Certificates: AZ-204"
+        "Ontwikkelen en onderhouden van webapplicaties met .NET Core, Angular, React.js en andere gerelateerde technologieën.",
+        "Samenwerken met multidisciplinaire teams om hoogwaardige producten te creëren.",
+        "Klanten waarvoor ik heb gewerkt: interne tooling van Team Rockstars IT, Conclusion Vertrouwelijk",
+        "Deelnemen aan codereviews en constructieve feedback geven aan andere ontwikkelaars.",
+        "Certificaten: AZ-204"
       ],
     },
-  ];
+];
+
   
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
+        "Ik dacht dat het onmogelijk was om een website te maken die net zo mooi is als ons product, maar Nick heeft me het tegendeel bewezen.",
+      name: "Wesley van Strien",
       designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      company: "TrueLime",
+      image: "https://randomuser.me/api/portraits/men/4.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
+        "Ik heb nog nooit een webontwikkelaar ontmoet die zo oprecht geeft om het succes van hun klanten zoals Nick dat doet.",
+      name: "Bas van de Pol",
+      designation: "Talentmanager",
+      company: "Rockstars",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
+        "Nadat Nick onze website had geoptimaliseerd, nam onze workflow toe met 50%. We kunnen hem niet genoeg bedanken!",
+      name: "TODO Conclusion medewerker",
+      designation: "Hoge pief BV",
       company: "456 Enterprises",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
@@ -205,9 +206,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Auto Huren",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Webgebaseerd platform waarmee gebruikers auto's kunnen zoeken, boeken en beheren van verschillende aanbieders, wat een handige en efficiënte oplossing biedt voor transportbehoeften.",
       tags: [
         {
           name: "react",
@@ -228,7 +229,7 @@ import {
     {
       name: "Job IT",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Webapplicatie waarmee gebruikers naar vacatures kunnen zoeken, geschatte salarisbereiken voor functies kunnen bekijken en beschikbare banen kunnen vinden op basis van hun huidige locatie.",
       tags: [
         {
           name: "react",
@@ -247,9 +248,9 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Reisgids",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Een uitgebreid reisboekingsplatform waarmee gebruikers vluchten, hotels en huurauto's kunnen boeken en gecureerde aanbevelingen biedt voor populaire bestemmingen.",
       tags: [
         {
           name: "nextjs",
@@ -267,6 +268,7 @@ import {
       image: tripguide,
       source_code_link: "https://github.com/",
     },
-  ];
+];
+
   
   export { services, technologies, experiences, testimonials, projects };

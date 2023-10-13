@@ -23,7 +23,8 @@ computers.jsx position plaatst het op de site -> position={isMobile ? [0, -3, -2
 https://sketchfab.com/3d-models?date=week&features=downloadable&sort_by=-likeCount
 
 create 3d model from photo for three js: 
-https://www.youtube.com/watch?v=8D8B7qXGOOI
+https://models.readyplayer.me/652911d933835c7bfb75740b.glb
+https://dev.to/nourdinedev/how-to-use-threejs-and-react-to-render-a-3d-model-of-your-self-4kkf
 
 
 

@@ -7,6 +7,10 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+//gsNPspLVjXjI3MCZy
+//template_6bg4n9m
+//service_0qhn4mf
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -30,24 +34,26 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-
+//gsNPspLVjXjI3MCZy
+//template_6bg4n9m
+//service_0qhn4mf
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'service_0qhn4mf',
+        'template_6bg4n9m',
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Nick van der Raaf",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "raafnick@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        'gsNPspLVjXjI3MCZy'
       )
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          alert("Dank je. Ik kom zo snel mogelijk bij je terug.");
 
           setForm({
             name: "",
@@ -59,7 +65,7 @@ const Contact = () => {
           setLoading(false);
           console.error(error);
 
-          alert("Ahh, something went wrong. Please try again.");
+          alert("Something went wrong.");
         }
       );
   };
@@ -72,7 +78,7 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
-        <p className={styles.sectionSubText}>Get in touch</p>
+        <p className={styles.sectionSubText}>Neem contact op</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
         <form
@@ -81,35 +87,35 @@ const Contact = () => {
           className='mt-12 flex flex-col gap-8'
         >
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your Name</span>
+            <span className='text-white font-medium mb-4'>Uw naam</span>
             <input
               type='text'
               name='name'
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your good name?"
+              placeholder="Wat is uw naam?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your email</span>
+            <span className='text-white font-medium mb-4'>Uw e-mail</span>
             <input
               type='email'
               name='email'
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your web address?"
+              placeholder="Wat is uw e-mailadres?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your Message</span>
+            <span className='text-white font-medium mb-4'>Uw bericht</span>
             <textarea
               rows={7}
               name='message'
               value={form.message}
               onChange={handleChange}
-              placeholder='What you want to say?'
+              placeholder='Wat wilt u zeggen?'
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -118,7 +124,7 @@ const Contact = () => {
             type='submit'
             className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
           >
-            {loading ? "Sending..." : "Send"}
+            {loading ? "Verzenden..." : "Verstuur"}
           </button>
         </form>
       </motion.div>
@@ -131,6 +137,7 @@ const Contact = () => {
       </motion.div>
     </div>
   );
+
 };
 
 export default SectionWrapper(Contact, "contact");
