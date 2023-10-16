@@ -13,13 +13,15 @@ import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import angularjs from "./tech/angularjs.png";
+import azure from "./tech/azure.png";
+import bootstrap from "./tech/bootstrap.png";
+import sql from "./tech/sql.png";
+import az204 from "./tech/az204.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -29,9 +31,13 @@ import truelime from "./company/truelime.png";
 import webicon from "./company/web.png";
 import rockstars from "./company/rockstars.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import truelimeproject from "./projects/TrueLime.png";
+import hku from "./projects/HKU.png";
+import coco from "./projects/CoCo.png";
+
+import wesley from "./persons/wesley.jfif";
+import maickel from "./persons/maickel.jfif";
+
 
 export {
   logo,
@@ -48,13 +54,14 @@ export {
   git,
   html,
   javascript,
-  mongodb,
   nodejs,
   reactjs,
-  redux,
-  tailwind,
   typescript,
   threejs,
+  angularjs,
+  azure,
+  bootstrap,
+  sql,
   meta,
   shopify,
   starbucks,
@@ -62,7 +69,10 @@ export {
   truelime,
   webicon,
   rockstars,
-  carrent,
-  jobit,
-  tripguide,
+  az204,
+  wesley,
+  maickel,
+  truelimeproject,
+  hku,
+  coco,
 };

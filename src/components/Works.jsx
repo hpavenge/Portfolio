@@ -82,7 +82,7 @@ const Works = () => {
         >
           De volgende projecten tonen mijn vaardigheden en ervaring aan de hand van
           praktijkvoorbeelden van mijn werk. Elk project wordt kort beschreven met
-          links naar code repositories en live demo's. Het weerspiegelt mijn
+          links naar live demo's. Het weerspiegelt mijn
           vermogen om complexe problemen op te lossen, met verschillende technologieën
           te werken en projecten effectief te beheren.
         </motion.p>

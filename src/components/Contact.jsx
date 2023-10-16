@@ -7,10 +7,6 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
-//gsNPspLVjXjI3MCZy
-//template_6bg4n9m
-//service_0qhn4mf
-
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -34,9 +30,6 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-//gsNPspLVjXjI3MCZy
-//template_6bg4n9m
-//service_0qhn4mf
     emailjs
       .send(
         'service_0qhn4mf',
