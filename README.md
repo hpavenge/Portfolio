@@ -23,6 +23,8 @@ https://dev.to/nourdinedev/how-to-use-threejs-and-react-to-render-a-3d-model-of-
 Readme to turn react app into github hosted page:
 https://github.com/gitname/react-gh-pages
 
+    "deploy": "gh-pages -d dist" (changed to dist thanks to vite outputting build in dist folder instead of build folder)
+
 
 
 
