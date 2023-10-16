@@ -5,12 +5,6 @@
 5. added own fix needed with -> npm install --legacy-peer-deps three
 6. added hoc folder high order component (zodat alles dezelfde breedte heeft naar de rand toe) after this in all component we can do export default SectionWrapper(About, "about"); so it applies to all
 7. Three.js for 3d models see Docs
-8. 
-
-continue from 49 min
-
-
-
 
 Docs: 
 https://tailwindcss.com/docs/flex
@@ -25,6 +19,9 @@ https://sketchfab.com/3d-models?date=week&features=downloadable&sort_by=-likeCou
 create 3d model from photo for three js: 
 https://models.readyplayer.me/652911d933835c7bfb75740b.glb
 https://dev.to/nourdinedev/how-to-use-threejs-and-react-to-render-a-3d-model-of-your-self-4kkf
+
+Readme to turn react app into github hosted page:
+https://github.com/gitname/react-gh-pages
 
 
 
