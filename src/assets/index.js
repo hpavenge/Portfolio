@@ -37,6 +37,8 @@ import coco from "./projects/CoCo.png";
 
 import wesley from "./persons/wesley.jfif";
 import maickel from "./persons/maickel.jfif";
+import bas from "./persons/Bas.jfif";
+import dinand from "./persons/Dinand.jfif";
 
 
 export {
@@ -72,6 +74,8 @@ export {
   az204,
   wesley,
   maickel,
+  bas,
+  dinand,
   truelimeproject,
   hku,
   coco,

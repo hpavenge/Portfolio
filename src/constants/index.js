@@ -23,6 +23,8 @@ import {
   truelimeproject,
   hku,
   coco,
+  bas,
+  dinand
 } from "../assets";
 
 export const navLinks = [
@@ -173,6 +175,22 @@ const experiences = [
 
 
 const testimonials = [
+  {
+    testimonial:
+      "Ik heb Nick ervaren als een veelzijdige (beheerst zowel ontwikkelaars als product owner eigenschappen) collega die niet denkt in moeilijkheden maar in mogelijkheden. Nick is zeer behulpzaam en denkt graag mee over verschillende onderwerpen. Een betrouwbare collega die je zonder problemen een opdracht kunt toevertrouwen.",
+    name: "Dinand Jonkers",
+    designation: "Product Lead",
+    company: "Conclusion Confidential",
+    image: dinand,
+  },
+  {
+    testimonial:
+      "Zeg je 'persoonlijke ontwikkeling' dan zeg je Nick! In zijn carriere heeft hij zaken als back-end dev, business analyst, product owner en scrum master naar zich toegetrokken. Inmiddels heeft hij zich vastgebeten in front-end development. Dat Nick een veelzijdige duizendpoot is die je in je team wil hebben moge duidelijk zijn!",
+    name: "Bas van de Pol",
+    designation: "Talent manager",
+    company: "Rockstars",
+    image: bas,
+  },
   {
     testimonial:
       "Nick is een waardevolle en flexibele teamspeler met een ongelooflijke drive om zowel voor de klant als collega's tot het uiterste te gaan!.",
