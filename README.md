@@ -29,5 +29,8 @@ https://github.com/gitname/react-gh-pages
     Run app with -> npm run dev
 
 
+    Deploy app to pages with -> npm run deploy
+
+
 
 
