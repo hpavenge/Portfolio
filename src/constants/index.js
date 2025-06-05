@@ -24,7 +24,9 @@ import {
   hku,
   coco,
   bas,
-  dinand
+  dinand,
+  gordon,
+  rosalie
 } from "../assets";
 
 export const navLinks = [
@@ -175,6 +177,22 @@ const experiences = [
 
 
 const testimonials = [
+  {
+    testimonial:
+      "Nick is een uitstekende aanwinst voor elk team! Zijn vermogen om niet alleen zijn dagelijkse ontwikkeltaken uit te voeren, maar ook creatieve, out-of-the-box oplossingen te bedenken, maakt hem bijzonder waardevol. Zijn proactieve houding bij het initiëren van verbeterpunten en zijn scherpte in zowel technisch als functioneel verfijnen van PBI's (Product Backlog Items) zorgen ervoor dat hij altijd voor kwaliteit staat. Bovendien blinkt hij uit in het snel oppakken en eigen maken van nieuwe materie, wat hem flexibel en adaptief maakt in een voortdurend veranderende omgeving.",
+    name: "Gordon Rappange",
+    designation: "Software Engineer",
+    company: "BDO",
+    image: gordon,
+  },
+  {
+    testimonial:
+      "Nick is een waardevolle en veelzijdige collega die een belangrijke bijdrage levert aan elk scrumteam. Hij neemt initiatief waar nodig, wat onder andere bleek toen hij proactief stappen zette om onze pipeline te automatiseren — een ontwikkeling die onze efficiëntie aanzienlijk heeft verbeterd. Ook op het gebied van samenwerking blinkt Nick uit. Toen onze scrummaster met vakantie was, aarzelde hij geen moment om het stokje over te nemen. Hij zorgt voor structuur, houdt het team scherp en draagt bij aan een positieve en productieve sfeer. Nick is iemand die zowel technisch als communicatief sterk is, en die je graag naast je hebt in elk team. Een echte teamspeler met een vooruitziende blik en een hands-on mentaliteit.",
+    name: "Rosalie van Deursen",
+    designation: "Product Owner",
+    company: "BDO",
+    image: rosalie,
+  },
   {
     testimonial:
       "Ik heb Nick ervaren als een veelzijdige (beheerst zowel ontwikkelaars als product owner eigenschappen) collega die niet denkt in moeilijkheden maar in mogelijkheden. Nick is zeer behulpzaam en denkt graag mee over verschillende onderwerpen. Een betrouwbare collega die je zonder problemen een opdracht kunt toevertrouwen.",

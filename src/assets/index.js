@@ -39,6 +39,8 @@ import wesley from "./persons/wesley.jfif";
 import maickel from "./persons/maickel.jfif";
 import bas from "./persons/Bas.jfif";
 import dinand from "./persons/Dinand.jfif";
+import gordon from "./persons/gordon.jfif";
+import rosalie from "./persons/Rosalie.jfif";
 
 
 export {
@@ -76,6 +78,8 @@ export {
   maickel,
   bas,
   dinand,
+  gordon,
+  rosalie,
   truelimeproject,
   hku,
   coco,
