@@ -177,6 +177,13 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
+      "Nick is een uitstekende aanwinst voor elk team! Zijn vermogen om niet alleen zijn dagelijkse ontwikkeltaken uit te voeren, maar ook creatieve, out-of-the-box oplossingen te bedenken, maakt hem bijzonder waardevol. Zijn proactieve houding bij het initiëren van verbeterpunten en zijn scherpte in zowel technisch als functioneel verfijnen van PBI's (Product Backlog Items) zorgen ervoor dat hij altijd voor kwaliteit staat. Bovendien blinkt hij uit in het snel oppakken en eigen maken van nieuwe materie, wat hem flexibel en adaptief maakt in een voortdurend veranderende omgeving.",
+    name: "Gordon Rappange",
+    designation: "Senior .NET developer",
+    company: "BDO",
+  },
+  {
+    testimonial:
       "Ik heb Nick ervaren als een veelzijdige (beheerst zowel ontwikkelaars als product owner eigenschappen) collega die niet denkt in moeilijkheden maar in mogelijkheden. Nick is zeer behulpzaam en denkt graag mee over verschillende onderwerpen. Een betrouwbare collega die je zonder problemen een opdracht kunt toevertrouwen.",
     name: "Dinand Jonkers",
     designation: "Product Lead",
